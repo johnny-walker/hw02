@@ -35,7 +35,7 @@
   ul li, .imageItem, .imageItemOdd {
     cursor: pointer;
     position: relative;
-    padding: 36px 8px 36px 10px;
+    padding: 6px 8px 6px 8px;
     list-style-type: none;
     background: #eee;
     font-size: 18px;
@@ -46,8 +46,10 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+  }
 
-    /* for img */
+  .image-cropper {
+    border-radius: 50%;
     object-fit: cover;
   }
   

@@ -70,10 +70,11 @@ function bodyLoaded() {
  
         // set attrtibutes
         div.class = even ? "imageItem" : "imageItemOdd"
+        image.class = "image-cropper"
         image.src = imagePath
         image.width = 48
         image.height = 36
-        text.margin = "20px"
+ 
    
         div.onclick = function (e) {
             // todo, show detail page
