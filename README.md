@@ -46,4 +46,4 @@ edit css again, 整體調整
 finish the filter functions \
 set image with round corner \
 adjust the leading space, reserve some space between image and title \
-show more info, create more textnodes for each image item
+show more info, create more textnodes (#1, #2)for each image item 
