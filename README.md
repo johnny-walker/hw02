@@ -43,6 +43,7 @@ create all child element(div img tags) for each store \
 edit css again, 整體調整 
 
 ##### ToDo (improvement)
+finish the filter functions \
 set image with round corner \
-adjsut the leading space, reserve some space between image and title \
+adjust the leading space, reserve some space between image and title \
 show more info, create more textnodes for each image item
