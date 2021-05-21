@@ -41,7 +41,7 @@ app.get('/stores/', function (req, res) {
     res.sendFile(__dirname + '/src/stores/' + 'stores.html')
 })
 
-// handle stores/API
+// handle stores/API : read db, parse the GET api parameters and filter data
 const allStores = []
 let filterStores = []
 const fsPromises = fs.promises

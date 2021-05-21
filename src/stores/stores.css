@@ -8,14 +8,14 @@
 
   label {
     margin: 10px;
-    color: rgb(76, 13, 192);
+    color: rgb(45, 100, 136);
   }
 
   button {
-    color: rgb(76, 13, 192);
+    color: rgb(45, 100, 136);
   }
   span {
-    color: rgb(162, 13, 192);
+    color: rgb(16, 109, 170);
     font-size: 24px;
     padding: 3px;
     vertical-align: top;
@@ -32,10 +32,10 @@
   }
   
   /* Style the list items */
-  ul li {
+  ul li, .imageItem, .imageItemOdd {
     cursor: pointer;
     position: relative;
-    padding: 12px 8px 12px 10px;
+    padding: 36px 8px 36px 10px;
     list-style-type: none;
     background: #eee;
     font-size: 18px;
@@ -46,15 +46,17 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    /* for img */
+    object-fit: cover;
   }
   
   /* Set all odd list items to a different color (zebra-stripes) */
-  ul li:nth-child(odd) {
+  ul li:nth-child(odd), .imageItemOdd {
     background: #f9f9f9;
   }
   
   /* Darker background-color on hover */
-  ul li:hover {
+  ul li:hover, .imageItem:hover, .imageItemOdd:hover {
     background: #ddd;
   }
-  
